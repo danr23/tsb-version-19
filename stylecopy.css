@@ -1,0 +1,66 @@
+.tsbTextStyle {
+background-color: #cc0000;
+border: 1px solid #550000;
+color: black;
+text-align: center;
+border-bottom-width: 6px;
+border-top-width: 6px;
+font-size: 30px;
+}
+.tsbStyleCopyText {
+cursor: pointer;
+border: 3px outset #ff0035;
+border-radius: 10px;
+background-color: #ff0000;
+border-top-width: 5px;
+border-left-width: 5px;
+}
+.tsbStyleCopyTextBtn {
+cursor: pointer;
+border: 3px outset #cc0000;
+border-radius: 10px;
+background-color: #ff0000;
+border-top-width: 5px;
+border-left-width: 5px;
+}
+.tsbStyleCopyTextBtn:hover {
+cursor: pointer;
+border: 3px inset #cc0000;
+border-radius: 10px;
+background-color: #dd0000;
+border-bottom-width: 5px;
+border-right-width: 5px;
+border-top-width: 3px;
+border-left-width: 3px;
+}
+.tsbStyleCopyTextBtn:active {
+cursor: pointer;
+border: 3px outset #cc0000;
+border-radius: 15px;
+background-color: #cc0000;
+border-top-width: 5px;
+border-left-width: 5px;
+border-bottom-width: 5px;
+border-right-width: 5px;
+}
+.tsbStyleX {
+border: 3px outset #ff0035;
+border-radius: 10px;
+background-color: #ff0000;
+border-top-width: 5px;
+border-left-width: 5px;
+}
+.tsbStyleY {
+border: 3px outset #ff0035;
+border-radius: 10px;
+background-color: #ff0000;
+border-top-width: 5px;
+border-left-width: 5px;
+}
+.tsbStyleZ {
+border: 3px outset #ff0035;
+border-radius: 10px;
+background-color: #ff0000;
+border-top-width: 5px;
+border-left-width: 5px;
+}

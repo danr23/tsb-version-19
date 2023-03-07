@@ -1,0 +1,8 @@
+.border{
+border: groove 1px #00db4b;
+border-radius: 25px;
+background:-moz-linear-gradient(top, black, #353535);
+background:-webkit-linear-gradient(top, black, #353535);
+background:-o-linear-gradient(top, black, #353535);
+width: 100%;
+}

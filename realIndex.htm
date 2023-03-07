@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+.InformationTSB {
+border: #00aa00 3px solid;
+border-radius: 15px;
+font-size: 25px;
+background-color: #00ff00;
+}
+
+.InformationTSB:hover {
+border: #00ff00 3px solid;
+border-radius: 15px;
+font-size: 23px;
+background-color: #00aa00;
+}
+</style>
+<meta charset="utf-8">
+<link rel="icon" type="image/x-icon" href="favicon.ico" sizes="192x192">
+<title id="TitleTSB">...</title>
+<link rel="stylesheet" type="text/css" href="indexstyle.css">
+</head>
+<body align="center" bgcolor="#ffffff">
+<a href="commands.html" style="text-decoration: none;font-size:40px;color:#202020;">Commands</a>
+<div align="center">
+<b><font size="6" class="indexTsbText" id="TextTSB">...</font></b>
+<br><br>
+<form method="GET" action="script.php">
+<table border="0"><tr>
+<td id="numberTSB">number: </td><td><input type="text" name="tsb" class="indexTextArea"></td>
+</tr><tr>
+<td id="wordTSB">word: </td><td><input type="text" name="tsbp" class="indexTextArea"></td>
+</tr>
+</table>
+<input type="submit" value="OK" class="indexButton"> 
+</form><br><br><br><br><br><br><br><br>
+<button onclick="location.href = 'info.html';" class="InformationTSB">Information</button>
+</div>
+</body>
+</html>
+<script>
+bgcol = new Array('#ffffff', '#cccccc', '#cbcccb', '#caccca', '#c9ccc9', '#c8ccc8', '#c7ccc7', '#c6ccc6', '#c5ccc5', '#c4ccc4', '#c3ccc3', '#c2ccc2', '#c1ccc1', '#c0ccc0', '#bbccbb', '#baccba', '#b9ccb9', '#b8ccb8', '#b7ccb7', '#b6ccb6', '#b5ccb5', '#b4ccb4', '#b3ccb3', '#b2ccb2', '#b1ccb1', '#b0ccb0', '#aaccaa', '#a9cca9', '#a8cca8', '#a7cca7', '#a6cca6', '#a5cca5', '#a4cca4', '#a3cca3', '#a2cca2', '#a1cca1', '#a0cca0', '#90cc90', '#80cc80', '#70cc70', '#60cc60', '#50cc50', '#40cc40', '#30cc30', '#20cc20', '#10cc10', '#05cc05', '#00cf00');
+numbercol = new Array('#ffffff', '#cccccc', '#cbcccb', '#caccca', '#c9ccc9', '#c8ccc8', '#c7ccc7', '#c6ccc6', '#c5ccc5', '#c4ccc4', '#c3ccc3', '#c2ccc2', '#c1ccc1', '#c0ccc0', '#bbccbb', '#baccba', '#b9ccb9', '#b8ccb8', '#b7ccb7', '#b6ccb6', '#b5ccb5', '#b4ccb4', '#b3ccb3', '#b2ccb2', '#b1ccb1', '#b0ccb0', '#aaccaa', '#a9cca9', '#a8cca8', '#a7cca7', '#a6cca6', '#a5cca5', '#a4cca4', '#a3cca3', '#a2cca2', '#a1cca1', '#a0cca0', '#90cc90', '#80cc80', '#70cc70', '#60cc60', '#50cc50', '#40cc40', '#30cc30', '#20cc20', '#10cc10', '#05cc05', '#000000');
+wordcol = new Array('#ffffff', '#cccccc', '#cbcccb', '#caccca', '#c9ccc9', '#c8ccc8', '#c7ccc7', '#c6ccc6', '#c5ccc5', '#c4ccc4', '#c3ccc3', '#c2ccc2', '#c1ccc1', '#c0ccc0', '#bbccbb', '#baccba', '#b9ccb9', '#b8ccb8', '#b7ccb7', '#b6ccb6', '#b5ccb5', '#b4ccb4', '#b3ccb3', '#b2ccb2', '#b1ccb1', '#b0ccb0', '#aaccaa', '#a9cca9', '#a8cca8', '#a7cca7', '#a6cca6', '#a5cca5', '#a4cca4', '#a3cca3', '#a2cca2', '#a1cca1', '#a0cca0', '#90cc90', '#80cc80', '#70cc70', '#60cc60', '#50cc50', '#40cc40', '#30cc30', '#20cc20', '#10cc10', '#05cc05', '#000000');
+bgcounter = 0;
+numcounter = 0;
+wordcounter = 0;
+function bgcfunc() {
+document.querySelector("body").setAttribute('bgcolor', bgcol[bgcounter++]);
+document.getElementById("numberTSB").style.color = numbercol[numcounter++];
+document.getElementById("wordTSB").style.color = wordcol[wordcounter++];
+if (bgcounter > bgcol.length) bgcounter = bgcol.length;
+if (numcounter > numbercol.length) numcounter = numbercol.length;
+if (wordcounter > wordcol.length) wordcounter = wordcol.length;
+}
+setInterval(bgcfunc, 15);
+setTimeout(function() {
+document.getElementById("TextTSB").innerHTML = "T..";
+}, 285);
+setTimeout(function() {
+document.getElementById("TextTSB").innerHTML = "TS.";
+}, 345);
+setTimeout(function() {
+document.getElementById("TextTSB").innerHTML = "TSB";
+}, 400);
+setTimeout(function() {
+document.getElementById("TitleTSB").innerHTML = "T..";
+}, 285);
+setTimeout(function() {
+document.getElementById("TitleTSB").innerHTML = "TS.";
+}, 345);
+setTimeout(function() {
+document.getElementById("TitleTSB").innerHTML = "TSB";
+}, 400);
+</script>

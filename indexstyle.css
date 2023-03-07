@@ -1,0 +1,43 @@
+.indexTextArea {
+background-color: #00cc00;
+border: 1px outset #00ff00;
+color: black;
+text-align: center;
+border-bottom-width: 6px;
+border-top-width: 6px;
+border-left-width: 6px;
+border-right-width: 1px;
+font-size: 15px;
+}
+.indexButton {
+background-color: #00cc00;
+border: 1px outset #00ff00;
+color: black;
+text-align: center;
+border-bottom-width: 6px;
+border-top-width: 6px;
+border-left-width: 3px;
+border-right-width: 3px;
+font-size: 15px;
+}
+.indexButton:hover {
+background-color: #00cc00;
+border: 1px inset #00ff00;
+color: black;
+text-align: center;
+border-bottom-width: 6px;
+border-top-width: 6px;
+border-left-width: 3px;
+border-right-width: 3px;
+font-size: 15px;
+}
+.indexTsbText {
+background-color: #00cc00;
+border: 1px outset #00ff00;
+color: black;
+text-align: center;
+border-bottom-width: 6px;
+border-top-width: 6px;
+border-left-width: 3px;
+border-right-width: 3px;
+}
